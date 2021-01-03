@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int input(int a[],int max_n)
+{
+	int i,n;
+	
+	scanf("%d",&n);
+	if(n>=max_n)
+		n = max_n;
+	for(i=0;i<n;++i)
+		scanf("%d",&a[i]);
+	return n;
+}
+
+void print(int a[],int n)
+{
+	int i;
+	
+	for(i=0;i<n;++i)
+		printf("%d ",a[i]);
+	printf("\n");
+}
+
+int remove_last(int a[],int n,int v)
+{
+	int i;
+	
+	for(i=n-1;i>=0&&!(a[i] ==v);--i)
+		;
+	if(i>=0)
+		a[i] = a[--n];
+	return n;
+}
+
+int main(void)
+{
+	int a[100];
+	int n,max_n = 100;
+	int v=99;
+	
+	n = input(a,max_n);
+	n = remove_last(a,n,v);
+	print(a,n);
+	return 0;
+}
+

@@ -1,0 +1,40 @@
+int-정수
+double-실수 floating-point type
+
+변수Variable의 구성
+알파벳, 언더파, 숫자
+-첫 글자는 알파벳 또는 언더바
+-대소문자 구별
+-31자 안넘기기
+-keyowrd사용 ㄴㄴ 이미 쓰이고 있는 단어
+
+*곱하기 /몫 %나머지
+Equal ==
+Noe equal !=
+less than <
+equal or less than <=
+logical and &&
+logical or ||
+logical not ! ()
+
+if는 바로 다음문만 실행함
+if-else if가 틀릴 경우 else 실행
+if-else때 if 뒤에 두 문장이 올 경우 묶어줘야함
+if-if 가능
+while은 조건을 만족하는 동안 계속 실행
+for(expr_1; exper_2; expr_3)
+1-초기화 수식
+2-조건 수식
+3-증감 수식
+
+배열(array)
+같은 타입의 연속된 변수들로 구성된 복합 변수
+길이는 정수(n)값
+인덱스의 범위는 0~n-1
+인덱스 범위를 벗어나면 실행오류가 발생할 수 있다
+
+새로운 함수정의에서
+int add(int a, int b)
+int-return type
+add-function name
+int a-formal argument

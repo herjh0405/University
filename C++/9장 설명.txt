@@ -1,0 +1,12 @@
+int data[10]={1,2,3,'''10}
+    array
+
+recursion 사용
+
+max(data)
+{
+sort-정렬
+'''
+}
+
+구글링에 binary search sort쳐보기

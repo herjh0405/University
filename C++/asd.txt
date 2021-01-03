@@ -1,0 +1,36 @@
+Linkage
+Link a.cpp-a.obj
+c.cpp-c.obj
+link위의 2개를 a.exe executable file을 만듬
+int x=; a.cpp
+extern int x; c.cpp a에서 정의된걸 c에서 쓰겠다는 의미임(local variable은 상관없음)
+
+static main앞에 있으니까 global variable 이 file안에서만 같은 원소로 치겠다
+
+static이 함수 내에 있을 때가 있고 밖에 있을 때가 있다---실습할꺼
+함수 내의 static 함수가 끝나고 static int ct에서 ct라는 변수가 남아있다
+
+data 영역    
+읽기전용
+초기화변수-static
+초기화 되지 않는 변수-global variable
+
+array of structure
+pointer 사용해서 functcion에 전달
+
+struct book이 type library가 변수
+
+struct position(tag, template) {
+int x;
+int y;
+} location;
+
+"int x;"="struct position p;"
+p.x=10;
+
+strict{
+int x;
+int y;
+} p라 해도 됨-complier가 이름을 잡아줌
+
+14.3 Coding

@@ -1,0 +1,13 @@
+chapter6 programming exercise, chapter7 programming exercise
+18번
+
+for(int n=1' n<100; n+1;
+
+do while for
+
+nest loop'
+
+string의 입출력 처리는 scan("%s",name); &prefix를 쓰지 않는다
+
+증감 operator는 매우 높은 precedence를 가지고
+오직 lvalue에만 적용 됨

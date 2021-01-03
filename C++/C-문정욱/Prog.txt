@@ -1,0 +1,41 @@
+자료형
+1.정수형
+short 2byte(16bit):-2^15~2^15-1
+int    4byte(32bit):-2^31~2^31-1
+long             동일
+unsigned short 부호가 사라진 형태로써 2^16-1
+unsigned int                      2^32-1
+unsigned long                   동일
+
+2.실수형
+float       4byte(32bit) 유효자릿수 7자리
+double   8byte(62bit) 유효자릿수 15자리
+
+3.문자형
+char 1byte(8bit) -128~127
+unsigned char 1byte(8bit) 0~256     
+문자를 넣으면 아스키(ASCI) 코드에 넣어서 숫자로 변환시킴 
+
+int x;(-선언)
+x=0(-초기값) 이나 int x=0;이 같음
+선언과 동시에 초기값을 넣어주는 것을 초기화라 한다. 
+
+파란색으로 뜨는 것들은 예약어-이미 있는 단어, 대소문자 구별
+
+문자: char, 1byte, %c
+문자열:char[], []안의 숫자만큼의 byte, %s
+
+strcpy(문자열을 담을 변수명, 담길 문자열 값);
+strcpy_s(문자열을 담을 변수명, 변수의 크기, 담을 문자열 값);
+strncpy(문자열을 담을 변수명, 담을 문자열 값, 담을 크기);
+문자열의 길이 = strlen(문자열);
+
+비교 결과 = strcmp(문자열1, 문자열2); 1이 크면 음수/ 같으면 0/ 2가크면 양수
+문자열들의 문자를 아스키코드값으로 변환시켜서 계산
+stricmp 대소문자 구별 x
+
+증감operator는 높은 precedence를 가지고 오직 lvalue에만 적용
+
+
+
+
